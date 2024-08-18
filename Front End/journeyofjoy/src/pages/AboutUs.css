@@ -1,0 +1,37 @@
+.about-us {
+    padding: 20px;
+  }
+  
+  .mission-vision, .our-team, .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .mission-vision h2, .our-team h2, .contact-info h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .team-photo {
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  

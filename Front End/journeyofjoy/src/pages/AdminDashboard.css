@@ -1,0 +1,27 @@
+.custom-btn {
+    background-color: #007bff;  /* Primary color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;  /* Rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3;  /* Darker shade on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+  }
+  
+  .custom-btn .me-2 {
+    font-size: 1.2rem;  /* Adjust icon size */
+  }
+  
+  .nav-link.btn.custom-btn {
+    width: 100%; /* Make buttons full width */
+    text-align: left; /* Align text and icon to the left */
+  }
+  
